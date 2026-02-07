@@ -30,11 +30,21 @@
 .description {
   width: 100%;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 650px;
 }
-.description a {
+a {
   color: oklch(62.3% 0.214 259.815);
 }
-.description a:hover {
+a:hover {
   text-decoration: underline;
+}
+
+.status {
+  border: 1px solid oklch(62.3% 0.214 259.815);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 650px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: oklch(62.3% 0.214 259.815 / 10%);
 }
